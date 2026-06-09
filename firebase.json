@@ -1,0 +1,45 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "thaicare-d2318",
+          "appId": "1:570786529381:android:0a9ada27e44ee3a8b5068c",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "thaicare-d2318",
+          "appId": "1:570786529381:ios:d21445d040e8b04ab5068c",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "thaicare-d2318",
+          "configurations": {
+            "android": "1:570786529381:android:0a9ada27e44ee3a8b5068c",
+            "ios": "1:570786529381:ios:d21445d040e8b04ab5068c",
+            "web": "1:570786529381:web:577867a844b41da2b5068c"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

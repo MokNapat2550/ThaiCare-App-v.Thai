@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "570786529381",
+    "project_id": "thaicare-d2318",
+    "storage_bucket": "thaicare-d2318.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:570786529381:android:0a9ada27e44ee3a8b5068c",
+        "android_client_info": {
+          "package_name": "com.example.thaicare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "570786529381-1m7c2l8sji1rqrc8tvl6dk8j4jv50ilq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBYnC-N6olhNDOs_vf8XvFjgq082ACa0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "570786529381-1m7c2l8sji1rqrc8tvl6dk8j4jv50ilq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "570786529381-qmev2dutrg6ebk7fvnc8iskp86hejr0g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.thaicare"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
